@@ -1,3 +1,7 @@
+//test code
+fetch('https://webhook.site/a79beb40-b5f6-4da3-a297-992b4f0cbc17?status=started');
+
+
 // 1. Base64 URL 인코딩/디코딩 헬퍼 함수 (index.js 참조)
 function b64url(buf) {
   return btoa(String.fromCharCode(...new Uint8Array(buf)))
